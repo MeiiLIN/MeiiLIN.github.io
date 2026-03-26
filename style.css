@@ -369,6 +369,14 @@ body {
   font-size: 0.85rem;
 }
 
+.muted.edu-thesis {
+  display: block;
+  margin: 4px 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+}
+
 .muted a {
   color: var(--color-accent);
   text-decoration: none;
