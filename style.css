@@ -701,6 +701,47 @@ body {
   line-height: 1.5;
 }
 
+/* ===== Honors ===== */
+.honors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.honor-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.honor-item.honor-top {
+  border-left: 3px solid var(--color-highlight);
+}
+
+.honor-icon {
+  flex-shrink: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--color-highlight);
+}
+
+.honor-item h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.honor-item p {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
 /* ===== Skills ===== */
 .skills-grid {
   display: grid;
