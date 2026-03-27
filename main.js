@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const animTargets = [
     '.theme-card', '.featured-card', '.pub-item',
     '.industry-item', '.grant-item', '.skill-group',
-    '.about-card', '.about-text', '.honor-item'
+    '.about-card', '.about-text', '.honor-item', '.cv-card'
   ];
 
   animTargets.forEach(sel => {

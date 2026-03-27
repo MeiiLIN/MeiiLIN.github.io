@@ -804,6 +804,30 @@ body {
   margin-bottom: 16px;
 }
 
+/* ===== CV ===== */
+.cv-card {
+  margin-top: 32px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.cv-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.cv-preview {
+  width: 100%;
+  min-height: 860px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: #fff;
+}
+
 /* ===== Contact ===== */
 .contact-text {
   color: rgba(250, 250, 249, 0.75);
@@ -957,6 +981,10 @@ body {
   .section {
     padding: 60px 0;
   }
+
+  .cv-preview {
+    min-height: 600px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -970,5 +998,13 @@ body {
 
   .contact-grid {
     flex-direction: column;
+  }
+
+  .cv-actions {
+    flex-direction: column;
+  }
+
+  .cv-preview {
+    min-height: 460px;
   }
 }
